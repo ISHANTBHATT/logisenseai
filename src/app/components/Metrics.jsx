@@ -3,8 +3,7 @@
 import { useEffect, useRef } from "react";
 import { motion, useAnimation, useInView } from "framer-motion";
 import Image from "next/image";
-import { CountUp } from "./Countup";
-// import { CountUp } from "@/components/Countup";
+import CountUp from "./CountUp";
 
 export default function Metrics() {
   const ref = useRef(null);

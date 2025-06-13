@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from "react";
 import { useInView } from "framer-motion";
 
-export function CountUp({
+function CountUp({
   end,
   start = 0,
   duration = 2,
@@ -53,3 +53,5 @@ export function CountUp({
     </span>
   );
 }
+
+export default CountUp;
