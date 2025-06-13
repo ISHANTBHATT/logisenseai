@@ -17,7 +17,7 @@ const SwingingObject = ({
           <img
             src={imageSrc}
             alt={altText}
-            className=" object-cover"
+            className=" object-contain"
             style={{ width: `${width}px`, height: `${height}px` }}
           />
           {/* <div className="absolute inset-0 bg-gradient-to-br from-yellow-400/10 to-transparent pointer-events-none"></div> */}
