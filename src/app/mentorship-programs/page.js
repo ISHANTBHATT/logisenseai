@@ -30,10 +30,10 @@ const MentorshipSection = () => {
             </h2>
 
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              At Logisense.AI, mentorship isn't one-size-fits-all. We tailor our
-              approach based on your industry, stage of growth, and business
-              challenges. Our hands-on support empowers you to make strategic
-              decisions with confidence.
+              At Logisense.AI, mentorship isn&apos;t one-size-fits-all. We
+              tailor our approach based on your industry, stage of growth, and
+              business challenges. Our hands-on support empowers you to make
+              strategic decisions with confidence.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
@@ -105,7 +105,7 @@ const MentorshipSection = () => {
 
             <div className="mb-10">
               <h3 className="text-2xl font-bold text-gray-800 mb-6">
-                Let's co-create the next wave of impactful enterprises.
+                Let&apos;s co-create the next wave of impactful enterprises.
               </h3>
               <div className="flex flex-wrap gap-4">
                 <button

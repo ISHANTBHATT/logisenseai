@@ -137,9 +137,10 @@ export default function HomePage() {
             </div>
             <div>
               <p className="text-gray-500 text-lg leading-relaxed">
-                Whether you’re in logistics, tech, manufacturing, or services —
-                if you're a founder ready to build something meaningful,
-                Logisense.AI is here to guide you every step of the way.
+                Whether you&apos;re in logistics, tech, manufacturing, or
+                services — if you're a founder ready to build something
+                meaningful, Logisense.AI is here to guide you every step of the
+                way.
               </p>
             </div>
           </div>
