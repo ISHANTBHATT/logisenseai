@@ -164,7 +164,7 @@ function Hero() {
       {/* <Header /> */}
 
       {/* Decorative Shapes - Subtle floating elements in background */}
-      <div className="fixed inset-0 pointer-events-none overflow-hidden z-0">
+      {/* <div className="fixed inset-0 pointer-events-none overflow-hidden z-0">
         <div
           className="absolute top-[10%] right-[15%] w-64 h-64 bg-yellow-200 rounded-full opacity-10 blur-3xl transition-transform duration-1000 ease-out"
           style={{ transform: `translate(${bgX * 1.5}px, ${bgY * 1.5}px)` }}
@@ -173,7 +173,7 @@ function Hero() {
           className="absolute bottom-[20%] left-[10%] w-48 h-48 bg-blue-200 rounded-full opacity-10 blur-3xl transition-transform duration-1000 ease-out"
           style={{ transform: `translate(${bgX * -1}px, ${bgY * -1}px)` }}
         />
-      </div>
+      </div> */}
 
       <main
         className={`min-h-screen flex flex-col justify-center items-center pt-20 px-4 transition-opacity duration-1000 ${

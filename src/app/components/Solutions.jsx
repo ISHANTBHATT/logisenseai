@@ -47,14 +47,14 @@ export default function Solutions() {
         >
           <motion.div variants={itemVariants} className="mb-4">
             <span className="inline-block py-2 px-4 rounded-full bg-gray-100 text-gray-800 font-medium text-sm">
-              Solution
+              About
             </span>
           </motion.div>
 
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <motion.div variants={itemVariants}>
               <h2 className="text-3xl md:text-4xl font-bold text-neutral-800 mb-4">
-                Smart solutions to simplify your supply chain
+                Built by Experts. Driven by Purpose.
               </h2>
             </motion.div>
             <motion.div
@@ -62,10 +62,9 @@ export default function Solutions() {
               className="md:max-w-sm md:ml-auto "
             >
               <p className="text-gray-600">
-                Revolutionizing the way you manage logistics, our smart
-                solutions streamline your supply chain, enhancing efficiency,
-                reducing costs, and ensuring seamless operations from start to
-                finish.
+                Founded by veterans in logistics, supply chain, and
+                international trade, Logisense.AI is more than a mentorship
+                platform — it&apos;s a catalyst for entrepreneurial excellence.
               </p>
             </motion.div>
           </div>
@@ -86,10 +85,11 @@ export default function Solutions() {
                 <FaRoute className="" size={24} />
               </div>
               <div>
-                <h3 className="text-xl font-bold mb-2 md:mb-8">Supply Chain</h3>
-                <p className="">
-                  By leveraging innovative strategies and cutting-edge
-                  technology, we help streamline
+                <h3 className="text-xl font-bold mb-2 md:mb-8">Our Mission</h3>
+                <p className="text-sm">
+                  To empower startups across industries by providing strategic
+                  mentorship, fostering innovation, and guiding them toward
+                  becoming scalable and impactful enterprises.
                 </p>
               </div>
             </div>
@@ -104,12 +104,11 @@ export default function Solutions() {
                 <GoChecklist className="" size={24} />
               </div>
               <div className="">
-                <h3 className="text-xl font-bold mb-2 md:mb-8">
-                  Customs Clearance
-                </h3>
-                <p>
-                  Navigating the complexities of customs clearance with ease, we
-                  ensure your shipments meet
+                <h3 className="text-xl font-bold mb-2 md:mb-8">Our Vision</h3>
+                <p className="text-sm">
+                  We envision a world where startups evolve into future-ready
+                  enterprises that drive operational excellence, inspire
+                  collaboration, and redefine business standards across sectors.
                 </p>
               </div>
             </div>
@@ -120,19 +119,20 @@ export default function Solutions() {
             variants={itemVariants}
           >
             <Image
-              src="/images/f5.jpg"
+              src="/images/f6.jpg"
               alt="Container ship"
               fill
               className="object-cover"
             />
             <div className="absolute bottom-0 bg-white/30 m-6 p-6 flex flex-col justify-end rounded-2xl backdrop-blur-sm">
-              <h3 className="text-xl font-bold text-white mb-2">
+              {/* <h3 className="text-xl font-bold text-white mb-2">
                 International Shipping
-              </h3>
-              <p className="text-white text-sm">
-                Our logistics company is committed to transforming the
-                transportation of goods. Our expert team handles every step of
-                the process
+              </h3> */}
+              <p className="text-black text-sm">
+                We understand the challenges startups face. Our team brings
+                hands-on experience and strategic insight to help you navigate
+                complex business environments, avoid common pitfalls, and focus
+                on long-term growth.
               </p>
             </div>
           </motion.div>

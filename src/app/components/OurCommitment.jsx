@@ -81,7 +81,7 @@ function OurCommitment() {
             className=" absolute top-0 right-0"
           >
             <Image
-              src="/images/container6.png"
+              src="/images/f7.png"
               alt="Export and import containers"
               width={700}
               height={500}
