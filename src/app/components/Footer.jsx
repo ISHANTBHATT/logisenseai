@@ -50,8 +50,11 @@ export default function Footer() {
           >
             <div>
               <p className="text-neutral-600 mb-4">
-                Our logistics company is dedicated to revolutionizing global
-                freight movement, ensuring efficient and reliable transportation
+                At Logisense.AI, we exist to transform startup ambitions into
+                thriving realities. With deep roots in logistics and a passion
+                for entrepreneurship, we provide tailored mentorship that
+                empowers emerging businesses across industries to grow, scale,
+                and lead.
               </p>
               <Link
                 href="/quote"
@@ -86,21 +89,23 @@ export default function Footer() {
             </motion.div>
 
             <motion.div variants={itemVariants}>
-              <h3 className="text-neutral-600 font-medium mb-4">Head Office</h3>
-              <p className="mb-2">Bengal Transport</p>
-              <p className="mb-2">Agrabad, 2058</p>
-              <p className="mb-2">Chattogram</p>
-              <p>Bangladesh</p>
+              <h3 className="text-neutral-600 font-medium mb-4">Navigation</h3>
+              <Link href="/">
+                <p className="mb-2 hover:text-black">Home</p>
+              </Link>
+              <Link href="/about">
+                <p className="mb-2 hover:text-black">About</p>
+              </Link>
+              <Link href="/contact">
+                <p className="mb-2 hover:text-black">Contact</p>
+              </Link>
             </motion.div>
 
             <motion.div variants={itemVariants}>
-              <h3 className="text-gray-600 font-medium mb-4">
-                Postal & Visitor address
-              </h3>
+              <h3 className="text-gray-600 font-medium mb-4">Head Office</h3>
               <p className="mb-2">Chowmuhany</p>
               <p className="mb-2">Pahartali, 4202</p>
-              <p className="mb-2">Chattogram</p>
-              <p>Bangladesh</p>
+              <p className="mb-2">Delhi, India</p>
             </motion.div>
           </div>
         </motion.div>

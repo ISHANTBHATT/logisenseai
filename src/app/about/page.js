@@ -347,7 +347,7 @@ export default function HomePage() {
                 Kamal Jain
               </h3>
               <p className="text-sky-500 font-semibold text-sm tracking-wider uppercase mb-4">
-                CEO & FOUNDER
+                Director
               </p>
               <div className="flex justify-center space-x-4">
                 <Facebook className="w-5 h-5 text-gray-400 hover:text-sky-500 cursor-pointer" />
@@ -391,7 +391,7 @@ export default function HomePage() {
                 Rajeev k Tukhral
               </h3>
               <p className="text-sky-500 font-semibold text-sm tracking-wider uppercase mb-4">
-                TECHNOLOGY OFFICER
+                Additional Director
               </p>
               <div className="flex justify-center space-x-4">
                 <Facebook className="w-5 h-5 text-gray-400 hover:text-sky-500 cursor-pointer" />
