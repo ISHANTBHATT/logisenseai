@@ -58,15 +58,15 @@ function OurCommitment() {
 
             <motion.h2
               variants={itemVariants}
-              className="text-4xl md:text-5xl font-bold text-gray-800 mb-6"
+              className="text-3xl md:text-4xl font-bold text-gray-800 mb-6"
             >
-              Delivering the Future Through Secure
+              Support College Startups From Idea To Enterprise
             </motion.h2>
 
             <motion.p variants={itemVariants} className="text-gray-600 mb-8">
-              Delivering the Future Through Secure Solutions and Innovation.Our
-              logistics company is committed to transforming the transportation
-              of goods.
+              Whether you’re in logistics, tech, manufacturing, or services — if
+              you're a founder ready to build something meaningful, Logisense.AI
+              is here to guide you every step of the way.
             </motion.p>
 
             <motion.div variants={itemVariants}>
