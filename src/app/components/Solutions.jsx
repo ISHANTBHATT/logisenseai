@@ -120,7 +120,7 @@ export default function Solutions() {
             variants={itemVariants}
           >
             <Image
-              src="/images/2.jpg"
+              src="/images/f5.jpg"
               alt="Container ship"
               fill
               className="object-cover"

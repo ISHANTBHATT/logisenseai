@@ -191,7 +191,7 @@ function Hero() {
         </div>
 
         <div
-          className=" absolute top-0 left-0 w-full  mx-auto grid grid-cols-1 gap-12 items-center mt-40 "
+          className=" absolute top-0 left-0 w-full mx-auto grid grid-cols-1 gap-12 items-center mt-40 "
           style={{ transform: `translate(${x}px, ${y}px)` }}
         >
           <div className="order-2 lg:order-1">

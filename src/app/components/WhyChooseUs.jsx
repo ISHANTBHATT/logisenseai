@@ -217,7 +217,7 @@ export default function WhyChooseUs() {
         >
           <div className="rounded-2xl overflow-hidden">
             <Image
-              src="/images/2.jpg"
+              src="/images/f1.jpg"
               alt="Container terminal with cranes"
               width={500}
               height={350}
@@ -226,7 +226,7 @@ export default function WhyChooseUs() {
           </div>
           <div className="rounded-2xl overflow-hidden">
             <Image
-              src="/images/3.jpg"
+              src="/images/f2.jpg"
               alt="Container handler machine"
               width={500}
               height={350}
@@ -235,7 +235,7 @@ export default function WhyChooseUs() {
           </div>
           <div className="rounded-2xl overflow-hidden">
             <Image
-              src="/images/brokerage.jpg"
+              src="/images/f3.jpg"
               alt="Truck with container"
               width={500}
               height={350}
@@ -246,9 +246,10 @@ export default function WhyChooseUs() {
 
         <motion.div variants={itemVariants} className="text-center max-w-4xl">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-            Beyond Cargo – Delivering Confidence, Care, and Excellence.{" "}
+            {/* Beyond Cargo – Delivering Confidence, Care, and Excellence. */}
+            Looking to scale your startup the right way?{" "}
             <span className="text-gray-600">
-              Your Cargo, Our Commitment. Delivering Trust.
+              You&apos;ve come to the right place.
             </span>
           </h2>
         </motion.div>

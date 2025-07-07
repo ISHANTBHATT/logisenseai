@@ -11,6 +11,8 @@ import {
   Linkedin,
   Rocket,
 } from "lucide-react";
+import MissionVision from "../components/Mission-vision";
+import MentorshipSection from "../components/MentorshipSection";
 
 export default function HomePage() {
   return (
@@ -235,8 +237,10 @@ export default function HomePage() {
         </div>
       </section>
 
+      <MissionVision />
+      <MentorshipSection />
       {/* Story Section */}
-      <section className="py-20">
+      {/* <section className="py-20">
         <div className="grid grid-cols-1 lg:grid-cols-2">
           <div className="relative h-full">
             <Image
@@ -262,15 +266,15 @@ export default function HomePage() {
 
               <Button className="bg-sky-500 hover:bg-sky-700 text-white px-8 py-4 rounded-full text-base font-medium">
                 JOIN US
-                {/* <ArrowRight className="ml-2 w-4 h-4" /> */}
+                <ArrowRight className="ml-2 w-4 h-4" />
               </Button>
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Office Location Section */}
-      <section className="py-20">
+      {/* <section className="py-20">
         <div className="grid grid-cols-1 lg:grid-cols-2">
           <div className="bg-black text-white p-12 lg:p-16 flex items-center my-10">
             <div className="w-full">
@@ -315,7 +319,7 @@ export default function HomePage() {
             />
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Team Section */}
       <section className="py-16 px-4 bg-white">
@@ -325,22 +329,22 @@ export default function HomePage() {
               OUR TEAM /
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-black leading-tight">
-              The amazing team members behind Cargo.
+              The amazing team members behind LogiSense.
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="text-center">
-              <div className="relative w-full aspect-square mb-6 bg-gray-100 rounded-lg overflow-hidden">
+              <div className="relative w-full max-w-[400px] mx-auto aspect-square mb-6 bg-gray-100 rounded-lg overflow-hidden">
                 <Image
-                  src="/images/profile1.jpg"
+                  src="/images/m1.jpg"
                   alt="John Carter"
                   fill
                   className="object-cover"
                 />
               </div>
               <h3 className="text-xl font-semibold text-black mb-2">
-                John Carter
+                Kamal Jain
               </h3>
               <p className="text-sky-500 font-semibold text-sm tracking-wider uppercase mb-4">
                 CEO & FOUNDER
@@ -352,7 +356,7 @@ export default function HomePage() {
               </div>
             </div>
 
-            <div className="text-center">
+            {/* <div className="text-center">
               <div className="relative w-full aspect-square mb-6 bg-gray-100 rounded-lg overflow-hidden">
                 <Image
                   src="/images/profile2.jpg"
@@ -372,19 +376,19 @@ export default function HomePage() {
                 <Twitter className="w-5 h-5 text-gray-400 hover:text-sky-500 cursor-pointer" />
                 <Linkedin className="w-5 h-5 text-gray-400 hover:text-sky-500 cursor-pointer" />
               </div>
-            </div>
+            </div> */}
 
             <div className="text-center">
-              <div className="relative w-full aspect-square mb-6 bg-gray-100 rounded-lg overflow-hidden">
+              <div className="relative w-full max-w-[400px] mx-auto aspect-square mb-6 bg-gray-100 rounded-lg overflow-hidden">
                 <Image
-                  src="/images/profile3.jpg"
+                  src="/images/m2.jpg"
                   alt="Andy Smith"
                   fill
                   className="object-cover"
                 />
               </div>
               <h3 className="text-xl font-semibold text-black mb-2">
-                Andy Smith
+                Rajeev k Tukhral
               </h3>
               <p className="text-sky-500 font-semibold text-sm tracking-wider uppercase mb-4">
                 TECHNOLOGY OFFICER

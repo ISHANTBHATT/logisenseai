@@ -27,7 +27,7 @@ export const Tabs = ({
     <>
       <div
         className={cn(
-          "flex flex-row items-center justify-center [perspective:1000px] relative overflow-auto sm:overflow-visible no-visible-scrollbar max-w-full w-full",
+          "flex flex-row items-center justify-center [perspective:1000px] relative overflow-hidden sm:overflow-visible no-visible-scrollbar max-w-full w-full ",
           containerClassName
         )}
       >
@@ -40,7 +40,7 @@ export const Tabs = ({
             onMouseEnter={() => setHovering(true)}
             onMouseLeave={() => setHovering(false)}
             className={cn(
-              "relative px-8 py-3 text-lg font-medium rounded-full transition-colors duration-300",
+              "relative px-8 py-3 text-lg font-medium rounded-full transition-colors duration-300 my-2 ",
               tabClassName,
               active.value === tab.value ? "text-white" : "text-neutral-700"
             )}

@@ -43,7 +43,7 @@ export default function Navbar() {
           </Link>
         </div>
 
-        <nav className="hidden md:flex items-center space-x-16">
+        <nav className="hidden md:flex items-center space-x-16 pr-16">
           <Link
             href="/"
             className="text-gray-800 hover:text-sky-500 transition-colors"
@@ -56,7 +56,7 @@ export default function Navbar() {
           >
             About
           </Link>
-          <Link
+          {/* <Link
             href="/mission-vision"
             className="text-gray-800 hover:text-sky-500 transition-colors"
           >
@@ -67,7 +67,7 @@ export default function Navbar() {
             className="text-gray-800 hover:text-sky-500 transition-colors"
           >
             Mentorship & Programs
-          </Link>
+          </Link> */}
         </nav>
 
         <Link

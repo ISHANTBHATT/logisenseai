@@ -1,6 +1,7 @@
 "use client";
 import React, { useEffect, useRef } from "react";
-import { Ship, Truck, Plane, Package, FileCheck } from "lucide-react";
+// import { Ship, Truck, Plane, Package, FileCheck } from "lucide-react";
+import { Layers, Lightbulb, FileCheck, Link } from "lucide-react";
 import { motion, useAnimation, useInView } from "framer-motion";
 import Image from "next/image";
 
@@ -35,7 +36,15 @@ function OurServices() {
       },
     },
   };
-
+  const hoverVariants = {
+    hover: {
+      y: -5,
+      transition: {
+        duration: 0.3,
+        ease: "easeOut",
+      },
+    },
+  };
   return (
     <section className="py-16 px-4 md:px-8 lg:px-16 max-w-7xl mx-auto">
       <motion.div
@@ -62,15 +71,14 @@ function OurServices() {
           variants={itemVariants}
           className="text-center text-gray-600 max-w-3xl mb-12"
         >
-          Our logistics company is committed to transforming the transportation
-          of goods worldwide. With a strong global network and a team of skilled
-          professionals,
+          From early-stage ideation to enterprise-level execution, our guidance
+          enables founders to:
         </motion.p>
 
         <div className="grid md:grid-cols-2 gap-8">
           <motion.div variants={itemVariants} className="relative">
             <Image
-              src="/images/3.jpg"
+              src="/images/f4.jpg"
               alt="Container loading on truck"
               width={600}
               height={800}
@@ -78,55 +86,91 @@ function OurServices() {
             />
           </motion.div>
 
-          <div className="grid gap-6">
+          <motion.div variants={itemVariants} className="grid gap-6">
             <motion.div
               variants={itemVariants}
-              className="bg-white rounded-3xl p-6 shadow-sm flex items-center gap-4 text-neutral-700 hover:bg-blue-400 hover:text-white transition-colors duration-300 group"
+              whileHover="hover"
+              className="bg-white rounded-3xl p-3 shadow-sm flex items-center gap-4 text-neutral-700 hover:bg-blue-400 hover:text-white transition-colors duration-300 group"
             >
-              <div className="bg-blue-400 text-white rounded-full w-16 h-16 flex-shrink-0 flex items-center justify-center group-hover:bg-white group-hover:text-blue-400 transition-colors duration-300">
-                <Ship className="" size={32} />
-              </div>
+              <motion.div
+                variants={hoverVariants}
+                className="bg-blue-400 text-white rounded-full w-12 h-12 flex-shrink-0 flex items-center justify-center group-hover:bg-white group-hover:text-blue-400 transition-colors duration-300"
+              >
+                <Layers className="" size={28} />
+              </motion.div>
               <div>
-                <h3 className="text-xl font-bold mb-2">Shipping Freight</h3>
-                <p className="">
+                <h3 className="text-xl font-semibold mb-2">
+                  Build strong foundations
+                </h3>
+                {/* <p className="">
                   Gathering items from the sender and preparing them for
                   transp-ortation.Properly packaging goods and labeling
-                </p>
+                </p> */}
               </div>
             </motion.div>
 
             <motion.div
               variants={itemVariants}
-              className="bg-white rounded-3xl p-6 shadow-sm flex items-center gap-4 text-neutral-700 hover:bg-blue-400 hover:text-white transition-colors duration-300 group"
+              whileHover="hover"
+              className="bg-white rounded-3xl p-3 shadow-sm flex items-center gap-4 text-neutral-700 hover:bg-blue-400 hover:text-white transition-colors duration-300 group"
             >
-              <div className="bg-blue-400 text-white rounded-full w-16 h-16 flex-shrink-0 flex items-center justify-center group-hover:bg-white group-hover:text-blue-400 transition-colors duration-300">
-                <Truck className="" size={32} />
-              </div>
+              <motion.div
+                variants={hoverVariants}
+                className="bg-blue-400 text-white rounded-full w-12 h-12 flex-shrink-0 flex items-center justify-center group-hover:bg-white group-hover:text-blue-400 transition-colors duration-300"
+              >
+                <Lightbulb className="" size={28} />
+              </motion.div>
               <div>
-                <h3 className="text-xl font-bold mb-2">Truck Freight</h3>
-                <p>
+                <h3 className="text-xl font-semibold mb-2">
+                  Embrace innovation
+                </h3>
+                {/* <p>
                   It is one of the most common methods of shipping, especially
                   for domestic or short-distance logistics.
-                </p>
+                </p> */}
               </div>
             </motion.div>
 
             <motion.div
               variants={itemVariants}
-              className="bg-white rounded-3xl p-6 shadow-sm flex items-center gap-4 text-neutral-700 hover:bg-blue-400 hover:text-white transition-colors duration-300 group"
+              whileHover="hover"
+              className="bg-white rounded-3xl p-3 shadow-sm flex items-center gap-4 text-neutral-700 hover:bg-blue-400 hover:text-white transition-colors duration-300 group"
             >
-              <div className="bg-blue-400 text-white rounded-full w-16 h-16 flex-shrink-0 flex items-center justify-center group-hover:bg-white group-hover:text-blue-400 transition-colors duration-300">
-                <Plane className="" size={32} />
-              </div>
+              <motion.div
+                variants={hoverVariants}
+                className="bg-blue-400 text-white rounded-full w-12 h-12 flex-shrink-0 flex items-center justify-center group-hover:bg-white group-hover:text-blue-400 transition-colors duration-300"
+              >
+                <FileCheck className="" size={28} />
+              </motion.div>
               <div>
-                <h3 className="text-xl font-bold mb-2">Air Freight</h3>
-                <p className="">
+                <h3 className="text-xl font-semibold mb-2">
+                  Adopt best-in-class governance practices
+                </h3>
+                {/* <p className="">
                   It's the fastest shipping method, ideal for high-value,
                   urgent, or lightweight shipments over long distances.
-                </p>
+                </p> */}
               </div>
             </motion.div>
-          </div>
+
+            <motion.div
+              variants={itemVariants}
+              whileHover="hover"
+              className="bg-white rounded-3xl p-3 shadow-sm flex items-center gap-4 text-neutral-700 hover:bg-blue-400 hover:text-white transition-colors duration-300 group"
+            >
+              <motion.div
+                variants={hoverVariants}
+                className="bg-blue-400 text-white rounded-full w-12 h-12 flex-shrink-0 flex items-center justify-center group-hover:bg-white group-hover:text-blue-400 transition-colors duration-300"
+              >
+                <Link className="" size={28} />
+              </motion.div>
+              <div>
+                <h3 className="text-xl font-semibold mb-2">
+                  Forge valuable industry connections
+                </h3>
+              </div>
+            </motion.div>
+          </motion.div>
         </div>
       </motion.div>
     </section>
