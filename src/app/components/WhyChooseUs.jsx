@@ -200,7 +200,7 @@ export default function WhyChooseUs() {
         className="flex flex-col items-center"
       >
         <motion.div variants={itemVariants} className="mb-8 relative">
-          <span className="inline-block py-2 px-4 rounded-full bg-gray-100 text-gray-800 font-medium text-sm">
+          <span className="inline-block py-2 px-4 rounded-full bg-gray-100 text-gray-800 font-medium text-lg">
             Why Choose us
           </span>
           {/* <div className=" absolute -top-2 -right-0">

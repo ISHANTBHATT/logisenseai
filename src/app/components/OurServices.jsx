@@ -55,7 +55,7 @@ function OurServices() {
         className="flex flex-col items-center"
       >
         <motion.div variants={itemVariants} className="mb-4">
-          <span className="inline-block py-2 px-4 rounded-full bg-gray-100 text-gray-800 font-medium text-sm">
+          <span className="inline-block py-2 px-4 rounded-full bg-gray-100 text-gray-800 font-medium text-lg">
             Our Services
           </span>
         </motion.div>
@@ -78,7 +78,7 @@ function OurServices() {
         <div className="grid md:grid-cols-2 gap-8">
           <motion.div variants={itemVariants} className="relative">
             <Image
-              src="/images/f4.jpg"
+              src="/images/f9.jpg"
               alt="Container loading on truck"
               width={600}
               height={800}

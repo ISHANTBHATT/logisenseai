@@ -294,7 +294,7 @@ const ContactSection = () => {
         </div>
       </section>
 
-      <section className="bg-white py-20 px-4">
+      {/* <section className="bg-white py-20 px-4">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <p className="text-sky-500 font-semibold text-sm uppercase tracking-wider mb-4">
@@ -345,7 +345,7 @@ const ContactSection = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

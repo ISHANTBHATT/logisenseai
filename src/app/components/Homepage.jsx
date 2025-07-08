@@ -103,7 +103,7 @@ function Homepage() {
       <OurServices />
       <OurCommitment />
       <Solutions />
-      <Metrics />
+      {/* <Metrics /> */}
       {/* <Footer /> */}
     </main>
   );

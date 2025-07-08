@@ -42,10 +42,10 @@ export default function HomePage() {
                 complex business environments, avoid common pitfalls, and focus
                 on long-term growth.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4">
+              {/* <div className="flex flex-col sm:flex-row gap-4">
                 <Button className="bg-sky-500 hover:bg-sky-700 text-white px-10 py-8 rounded-full text-base font-medium inline-flex">
                   JOIN US
-                  {/* <ArrowRight className="ml-2 w-4 h-4" /> */}
+                  <ArrowRight className="ml-2 w-4 h-4" />
                 </Button>
                 <Button
                   variant="outline"
@@ -53,7 +53,7 @@ export default function HomePage() {
                 >
                   OUR VALUES
                 </Button>
-              </div>
+              </div> */}
             </div>
           </div>
           {/* <div className="w-full">
@@ -335,7 +335,7 @@ export default function HomePage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="text-center">
-              <div className="relative w-full max-w-[400px] mx-auto aspect-square mb-6 bg-gray-100 rounded-lg overflow-hidden">
+              <div className="relative w-full max-w-[350px] mx-auto aspect-square mb-6 bg-gray-100 rounded-lg overflow-hidden">
                 <Image
                   src="/images/m1.jpg"
                   alt="John Carter"
@@ -350,8 +350,8 @@ export default function HomePage() {
                 Director
               </p>
               <div className="flex justify-center space-x-4">
-                <Facebook className="w-5 h-5 text-gray-400 hover:text-sky-500 cursor-pointer" />
-                <Twitter className="w-5 h-5 text-gray-400 hover:text-sky-500 cursor-pointer" />
+                {/* <Facebook className="w-5 h-5 text-gray-400 hover:text-sky-500 cursor-pointer" />
+                <Twitter className="w-5 h-5 text-gray-400 hover:text-sky-500 cursor-pointer" /> */}
                 <Linkedin className="w-5 h-5 text-gray-400 hover:text-sky-500 cursor-pointer" />
               </div>
             </div>
@@ -379,7 +379,7 @@ export default function HomePage() {
             </div> */}
 
             <div className="text-center">
-              <div className="relative w-full max-w-[400px] mx-auto aspect-square mb-6 bg-gray-100 rounded-lg overflow-hidden">
+              <div className="relative w-full max-w-[350px] mx-auto aspect-square mb-6 bg-gray-100 rounded-lg overflow-hidden">
                 <Image
                   src="/images/m2.jpg"
                   alt="Andy Smith"
@@ -394,8 +394,8 @@ export default function HomePage() {
                 Additional Director
               </p>
               <div className="flex justify-center space-x-4">
-                <Facebook className="w-5 h-5 text-gray-400 hover:text-sky-500 cursor-pointer" />
-                <Twitter className="w-5 h-5 text-gray-400 hover:text-sky-500 cursor-pointer" />
+                {/* <Facebook className="w-5 h-5 text-gray-400 hover:text-sky-500 cursor-pointer" />
+                <Twitter className="w-5 h-5 text-gray-400 hover:text-sky-500 cursor-pointer" /> */}
                 <Linkedin className="w-5 h-5 text-gray-400 hover:text-sky-500 cursor-pointer" />
               </div>
             </div>

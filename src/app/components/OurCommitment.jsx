@@ -3,6 +3,7 @@ import React from "react";
 import { useEffect, useRef } from "react";
 import { motion, useAnimation, useInView } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 
 function OurCommitment() {
   const controls = useAnimation();
@@ -51,7 +52,7 @@ function OurCommitment() {
         >
           <div>
             <motion.div variants={itemVariants} className="mb-4">
-              <span className="inline-block py-2 px-4 rounded-full bg-gray-100 text-gray-800 font-medium text-sm">
+              <span className="inline-block py-2 px-4 rounded-full bg-gray-100 text-gray-800 font-medium">
                 Our Commitment
               </span>
             </motion.div>
@@ -70,9 +71,11 @@ function OurCommitment() {
             </motion.p>
 
             <motion.div variants={itemVariants}>
-              <button className="bg-blue-400 hover:bg-blue-500 text-white font-medium py-3 px-8 rounded-full transition-colors">
-                Learn more
-              </button>
+              <Link href="/mission-vision">
+                <button className="bg-blue-400 hover:bg-blue-500 text-white font-medium py-3 px-8 rounded-full transition-colors">
+                  Learn more
+                </button>
+              </Link>
             </motion.div>
           </div>
 

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const MentorshipSection = () => {
   const partners = [
@@ -108,20 +109,24 @@ const MentorshipSection = () => {
                 Let&apos;s co-create the next wave of impactful enterprises.
               </h3>
               <div className="flex flex-wrap gap-4">
-                <button
-                  className="px-8 py-3 bg-gradient-to-r from-[#25ABBE] to-[#1A6DAF] text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
-                  //   onClick={() => {
-                  //   }}
-                >
-                  Apply for Mentorship
-                </button>
-                <button
-                  className="px-8 py-3 bg-white text-[#25ABBE] font-semibold rounded-lg border-2 border-[#25ABBE] shadow-md hover:shadow-lg transform hover:-translate-y-1 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-opacity-50"
-                  //   onClick={() => {
-                  //   }}
-                >
-                  Partner With Us
-                </button>
+                <Link href="/contact">
+                  <button
+                    className="px-8 py-3 bg-gradient-to-r from-[#25ABBE] to-[#1A6DAF] text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
+                    //   onClick={() => {
+                    //   }}
+                  >
+                    Apply for Mentorship
+                  </button>
+                </Link>
+                <Link href="/contact">
+                  <button
+                    className="px-8 py-3 bg-white text-[#25ABBE] font-semibold rounded-lg border-2 border-[#25ABBE] shadow-md hover:shadow-lg transform hover:-translate-y-1 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-opacity-50"
+                    //   onClick={() => {
+                    //   }}
+                  >
+                    Partner With Us
+                  </button>
+                </Link>
               </div>
             </div>
           </div>

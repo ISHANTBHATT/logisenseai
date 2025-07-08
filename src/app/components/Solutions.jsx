@@ -46,7 +46,7 @@ export default function Solutions() {
           animate={controls}
         >
           <motion.div variants={itemVariants} className="mb-4">
-            <span className="inline-block py-2 px-4 rounded-full bg-gray-100 text-gray-800 font-medium text-sm">
+            <span className="inline-block py-2 px-4 rounded-full bg-gray-100 text-gray-800 font-medium text-lg">
               About
             </span>
           </motion.div>
@@ -119,7 +119,7 @@ export default function Solutions() {
             variants={itemVariants}
           >
             <Image
-              src="/images/f6.jpg"
+              src="/images/f10.jpg"
               alt="Container ship"
               fill
               className="object-cover"

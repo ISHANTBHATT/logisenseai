@@ -3,6 +3,7 @@
 import { useEffect, useRef } from "react";
 import { motion, useAnimation, useInView } from "framer-motion";
 import Link from "next/link";
+import { Facebook, Linkedin } from "lucide-react";
 
 export default function Footer() {
   const ref = useRef(null);
@@ -57,10 +58,10 @@ export default function Footer() {
                 and lead.
               </p>
               <Link
-                href="/quote"
+                href="/contact"
                 className="inline-block bg-sky-500 text-white px-6 py-3 rounded-full hover:bg-sky-600 transition-colors"
               >
-                Request A Quote
+                Contact Us
               </Link>
             </div>
             <div>
@@ -86,6 +87,30 @@ export default function Footer() {
               <p className="text-xl font-medium text-neutral-800">
                 +9999999999
               </p>
+              <div className="mt-8">
+                <h3 className="text-lg text-neutral-600 font-medium mb-4">
+                  Follow us
+                </h3>
+                {/* <p className="text-gray-200">sales@exert.com</p> */}
+                <div className="flex gap-4 ">
+                  <a
+                    href="https://www.facebook.com/people/LogisenseAI/61578017076869/"
+                    className="hover:text-gray-800"
+                    target="_blank"
+                  >
+                    <Facebook className="h-6 w-6" />
+                    <span className="sr-only">Facebook</span>
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/company/logisense-ai/?viewAsMember=true"
+                    className="hover:text-gray-800"
+                    target="_blank"
+                  >
+                    <Linkedin className="h-6 w-6" />
+                    <span className="sr-only">Instagram</span>
+                  </a>
+                </div>
+              </div>
             </motion.div>
 
             <motion.div variants={itemVariants}>
@@ -95,6 +120,12 @@ export default function Footer() {
               </Link>
               <Link href="/about">
                 <p className="mb-2 hover:text-black">About</p>
+              </Link>
+              <Link href="/mission-vision">
+                <p className="mb-2 hover:text-black">Mission & Vision</p>
+              </Link>
+              <Link href="/mentorship-programs">
+                <p className="mb-2 hover:text-black">Mentorship & Programs</p>
               </Link>
               <Link href="/contact">
                 <p className="mb-2 hover:text-black">Contact</p>
