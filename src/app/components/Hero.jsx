@@ -332,14 +332,14 @@ export default function Hero() {
   };
 
   return (
-    <div className="min-h-screen bg-white relative overflow-hidden flex items-center justify-center py-20">
+    <div className="min-h-screen bg-white relative overflow-hidden flex items-start lg:items-center justify-center py-20">
       {/* Optimized background image */}
       <div className="absolute inset-0 w-full h-full">
         <Image
           src="/images/bg2.jpg"
           fill
           alt="Background Image"
-          className={`object-contain transition-opacity duration-1000 ${
+          className={`object-cover lg:object-contain transition-opacity duration-1000 ${
             imageLoaded ? "opacity-100" : "opacity-0"
           }`}
           quality={75}
@@ -347,21 +347,24 @@ export default function Hero() {
           onLoadingComplete={() => setImageLoaded(true)}
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 100vw"
         />
-        {/* Loading placeholder */}
+
         {!imageLoaded && (
           <div className="absolute inset-0 bg-gray-200 animate-pulse" />
         )}
       </div>
 
-      <div className="container mx-auto px-6 py-8 relative z-10">
+      <div className="container mx-auto px-2 sm:px-6 py-8 relative z-10">
         <motion.div
-          className="px-4 md:px-20"
+          className="px-4 lg:px-20"
           variants={container}
           initial="hidden"
           animate="visible"
         >
           {/* Animated content */}
-          <motion.div className="space-y-8" variants={container}>
+          <motion.div
+            className="space-y-8 text-center md:text-left"
+            variants={container}
+          >
             <motion.div variants={item}>
               <motion.h1
                 className="text-4xl sm:text-5xl md:text-6xl font-bold bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-tight"
@@ -382,7 +385,7 @@ export default function Hero() {
             </motion.div>
 
             <motion.p
-              className="text-gray-400 text-base leading-relaxed max-w-md"
+              className="text-gray-400 text-base leading-relaxed "
               variants={item}
             >
               At Logisense.AI, we exist to transform startup ambitions into

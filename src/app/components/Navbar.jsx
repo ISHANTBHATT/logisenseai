@@ -44,7 +44,7 @@ export default function Navbar() {
           </Link>
         </div>
 
-        <nav className="hidden md:flex items-center space-x-16">
+        <nav className="hidden lg:flex items-center space-x-16">
           <Link
             href="/"
             className="text-gray-800 hover:text-sky-500 transition-colors"
@@ -73,12 +73,12 @@ export default function Navbar() {
 
         <Link
           href="/contact"
-          className="bg-sky-500 text-white px-6 py-2 rounded-full hover:bg-sky-600 transition-colors"
+          className="bg-sky-500 text-white px-3 sm:px-6 py-2 rounded-full hover:bg-sky-600 transition-colors"
         >
           Contact us
         </Link>
         <button
-          className="md:hidden text-gray-800"
+          className="lg:hidden text-gray-800"
           onClick={() => setIsOpen(!isOpen)}
         >
           <svg
@@ -99,7 +99,7 @@ export default function Navbar() {
       </div>
 
       {isOpen && (
-        <div className="md:hidden bg-white shadow-lg absolute top-full left-0 right-0 p-4">
+        <div className="lg:hidden bg-white shadow-lg absolute top-full left-0 right-0 p-4">
           <nav className="flex flex-col space-y-4">
             <Link
               href="/"
@@ -114,22 +114,16 @@ export default function Navbar() {
               About
             </Link>
             <Link
-              href="/price"
+              href="/mission-vision"
               className="text-gray-800 hover:text-sky-500 transition-colors"
             >
-              Price
+              Mission & Vision
             </Link>
             <Link
-              href="/tracking"
+              href="/mentorship-programs"
               className="text-gray-800 hover:text-sky-500 transition-colors"
             >
-              Tracking
-            </Link>
-            <Link
-              href="/schedules"
-              className="text-gray-800 hover:text-sky-500 transition-colors"
-            >
-              Schedules
+              Mentorship & Programs
             </Link>
             <Link
               href="/contact"

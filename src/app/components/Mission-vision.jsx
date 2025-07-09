@@ -9,10 +9,10 @@ function MissionVision() {
       title: "Mission",
       value: "mission",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-[#25ABBE] to-[#1A6DAF]">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-4 sm:p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-[#25ABBE] to-[#1A6DAF]">
           <div className="flex flex-col md:flex-row  justify-between items-center w-full h-full">
             <div className="md:ml-6 ">
-              <h2 className="text-6xl md:text-7xl font-semibold text-white mb-10">
+              <h2 className="text-6xl md:text-7xl font-semibold text-white text-center sm:text-left mb-10">
                 Our Mission
               </h2>
               <p className="text-gray-50 text-lg md:text-xl max-w-2xl text-center md:text-left">
@@ -41,7 +41,7 @@ function MissionVision() {
       title: "Vision",
       value: "vision",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-[#25ABBE] to-[#1A6DAF]">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-4 sm:p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-[#25ABBE] to-[#1A6DAF]">
           <div className="flex flex-col-reverse md:flex-row justify-between items-center w-full h-full">
             <div className="w-1/2 lg:w-1/3 min-w-[100px]">
               <Image
@@ -53,7 +53,7 @@ function MissionVision() {
               />
             </div>
             <div className="ml-6 ">
-              <h2 className="text-6xl md:text-7xl font-semibold text-white mb-10">
+              <h2 className="text-6xl md:text-7xl font-semibold text-white text-center sm:text-left mb-10">
                 Our Vision
               </h2>
               <p className="text-gray-50 text-lg md:text-xl max-w-2xl text-center md:text-left">

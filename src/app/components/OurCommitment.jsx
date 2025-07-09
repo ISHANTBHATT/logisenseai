@@ -81,7 +81,7 @@ function OurCommitment() {
 
           <motion.div
             variants={itemVariants}
-            className=" absolute top-0 right-0"
+            className=" lg:absolute top-0 right-0"
           >
             <Image
               src="/images/f7.png"
